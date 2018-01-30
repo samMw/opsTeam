@@ -21,7 +21,7 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="songBook.html">Song Book<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Other Page<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Help</a>
@@ -42,43 +42,38 @@
 	
   <div id="wrapper">
     <img src="bishopshalt floor plan nov17_new.jpg" class="img-fluid" alt="Floor Plan">
-    <a id="Photos\1.jpg" data-toggle="modal" data-target="#exampleModal" src="2.jpg" onclick="test(this.id)"> <div id="pos1"></div></a>
-    <a href="Photos\2.jpg"> <div id="pos2"></div></a>
-    <a href="Photos\3.jpg"> <div id="pos3"></div></a>
-    <a href="Photos\4.jpg"> <div id="pos4"></div></a>
-    <a href="Photos\5.jpg"> <div id="pos5"></div></a>
-    <a href="Photos\6.jpg"> <div id="pos6"></div></a>
-    <a href="Photos\7.jpg"> <div id="pos7"></div></a>
-    <a href="Photos\8.jpg"> <div id="pos8"></div></a>
-    <a href="Photos\9.jpg"> <div id="pos9"></div></a>
-    <a href="Photos\10.jpg"> <div id="pos10"></div></a>
-    <a href="Photos\11.jpg"> <div id="pos11"></div></a>
-    <a href="Photos\12.jpg"> <div id="pos12"></div></a>
-    <a href="Photos\13.jpg"> <div id="pos13"></div></a>
-    <a href="Photos\14.jpg"> <div id="pos14"></div></a>
-    <a href="Photos\15.jpg"> <div id="pos15"></div></a>
-    <a href="Photos\16.jpg"> <div id="pos16"></div></a>
+    <a id="1" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos1"></div></a>
+    <a id="2" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos2"></div></a>
+    <a id="3" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos3"></div></a>
+    <a id="4" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos4"></div></a>
+    <a id="5" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos5"></div></a>
+    <a id="6" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos6"></div></a>
+    <a id="7" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos7"></div></a>
+    <a id="8" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos8"></div></a>
+    <a id="9" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos9"></div></a>
+    <a id="10" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos10"></div></a>
+    <a id="11" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos11"></div></a>
+    <a id="12" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos12"></div></a>
+    <a id="13" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos13"></div></a>
+    <a id="14" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos14"></div></a>
+    <a id="15" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos15"></div></a>
+    <a id="16" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos16"></div></a>
   </div>
 
 </div>	
-
-<!-- Button trigger modal -->
-<!--button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-  Launch demo modal
-</button-->
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header text-white bg-dark">
         <h5 class="modal-title" id="exampleModalLabel">Sign Position</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <button type="button" class="close text-white bg-dark" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <img src="" class="img-fluid" alt="Floor Plan">
+        <img src="" id="modalImage" class="img-fluid" alt="Floor Plan">
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -86,26 +81,6 @@
     </div>
   </div>
 </div>
-
-<!-- The Modal -->
-<!--div id="exampleModal" class="modal"-->
-  <!-- Modal content -->
-  <!--div class="modal-dialog" role="document">
-      <div class="modal-content">
-      <div class="modal-header" style="background-color: #b3ffff;">
-          <span class="close">&times;</span>
-          <h2>Update this SOR?</h2>
-      </div>
-      <div class="modal-body">
-          <pre id="contentModal"></pre>
-      </div>
-      <div class="modal-footer" style="background-color: #b3ffff;">
-<button class="btn btn-primary" onclick="emailAdds()">Confirm</button>
-          <button type="button" id="modalClose" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-      </div>
-  </div>
-</div-->
 	
 <script src="https://apis.google.com/js/platform.js" async defer></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
