@@ -14,7 +14,7 @@ a{
     height:4.6%;
     bottom:26.5%;
     left:23%;
-    background-color: blue;
+    /*background-color: blue;*/
 }
 #pos2{
     position:absolute;
@@ -22,7 +22,7 @@ a{
     height:4.5%;
     bottom:26.8%;
     left:8%;
-    background-color: orange;
+    /* background-color: orange; */
 }
 #pos3{
     position:absolute;
@@ -30,7 +30,7 @@ a{
     height:4.6%;
     bottom:31.2%;
     left:36.35%;
-    background-color: turquoise;
+    /* background-color: turquoise; */
 }
 #pos4{
     position:absolute;
@@ -38,7 +38,7 @@ a{
     height:4.5%;
     bottom:18.5%;
     left:42.5%;
-    background-color: burlywood;
+    /* background-color: burlywood; */
 }
 #pos5{
     position:absolute;
@@ -46,7 +46,7 @@ a{
     height:4.6%;
     bottom:27.75%;
     left:63.5%;
-    background-color: indianred;
+    /* background-color: indianred; */
 }
 #pos6{
     position:absolute;
@@ -54,7 +54,7 @@ a{
     height:4.6%;
     bottom:31.2%;
     left:49.3%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 #pos7{
     position:absolute;
@@ -62,7 +62,7 @@ a{
     height:4.2%;
     bottom:39%;
     left:63.7%;
-    background-color: cyan;
+    /* background-color: cyan; */
 }
 #pos8{
     position:absolute;
@@ -70,7 +70,7 @@ a{
     height:4.6%;
     bottom:45.6%;
     left:68.6%;
-    background-color: brown;
+    /* background-color: brown; */
 }
 #pos9{
     position:absolute;
@@ -78,7 +78,7 @@ a{
     height:4.4%;
     bottom:58.5%;
     left:69.7%;
-    background-color: red;
+    /* background-color: red; */
 }
 #pos10{
     position:absolute;
@@ -86,7 +86,7 @@ a{
     height:4.4%;
     bottom:67%;
     left:69.6%;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 #pos11{
     position:absolute;
@@ -94,7 +94,7 @@ a{
     height:4.4%;
     bottom:77.5%;
     left:64.25%;
-    background-color: green;
+    /* background-color: green; */
 }
 #pos12{
     position:absolute;
@@ -102,7 +102,7 @@ a{
     height:4.6%;
     bottom:85%;
     left:61.6%;
-    background-color: brown;
+    /* background-color: brown; */
 }
 #pos13{
     position:absolute;
@@ -110,7 +110,7 @@ a{
     height:4.6%;
     bottom:90.5%;
     left:91.7%;
-    background-color: grey;
+    /* background-color: grey; */
 }
 #pos14{
     position:absolute;
@@ -118,7 +118,7 @@ a{
     height:4.4%;
     bottom:57%;
     left:16%;
-    background-color: brown;
+    /* background-color: brown; */
 }
 #pos15{
     position:absolute;
@@ -126,7 +126,7 @@ a{
     height:4.4%;
     bottom:50.6%;
     left:16%;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
 }
 #pos16{
     position:absolute;
@@ -134,7 +134,7 @@ a{
     height:4.4%;
     bottom:34%;
     left:16%;
-    background-color: rgb(14, 110, 14);
+    /* background-color: rgb(14, 110, 14); */
 }
 #pos1:hover, #pos2:hover, #pos3:hover, #pos4:hover, #pos5:hover, #pos6:hover, #pos7:hover, #pos8:hover, #pos9:hover, #pos10:hover, #pos11:hover, #pos10:hover, #pos12:hover, #pos13:hover, #pos14:hover, #pos15:hover, #pos16:hover{
     border:1px solid red;
