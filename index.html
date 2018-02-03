@@ -53,24 +53,24 @@
 		<p class="lead">This app will guide you through everything you need to know to survive the morning setup!</p>
 	</div>
 	
-  <div id="wrapper">
+<div id="wrapper">
     <img src="bishopshalt floor plan nov17_new.jpg" class="img-fluid" alt="Floor Plan">
-    <a id="1" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos1"></div></a>
-    <a id="2" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos2"></div></a>
-    <a id="3" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos3"></div></a>
-    <a id="4" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos4"></div></a>
-    <a id="5" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos5"></div></a>
-    <a id="6" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos6"></div></a>
-    <a id="7" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos7"></div></a>
-    <a id="8" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos8"></div></a>
-    <a id="9" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos9"></div></a>
-    <a id="10" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos10"></div></a>
-    <a id="11" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos11"></div></a>
-    <a id="12" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos12"></div></a>
-    <a id="13" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos13"></div></a>
-    <a id="14" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos14"></div></a>
-    <a id="15" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos15"></div></a>
-    <a id="16" data-toggle="modal" data-target="#exampleModal" onclick="signImage(this.id)"> <div id="pos16"></div></a>
+    <a id="1" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos1"></div></a>
+    <a id="2" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos2"></div></a>
+    <a id="3" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos3"></div></a>
+    <a id="4" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos4"></div></a>
+    <a id="5" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos5"></div></a>
+    <a id="6" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos6"></div></a>
+    <a id="7" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos7"></div></a>
+    <a id="8" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos8"></div></a>
+    <a id="9" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos9"></div></a>
+    <a id="10" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos10"></div></a>
+    <a id="11" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos11"></div></a>
+    <a id="12" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos12"></div></a>
+    <a id="13" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos13"></div></a>
+    <a id="14" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos14"></div></a>
+    <a id="15" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos15"></div></a>
+    <a id="16" data-toggle="modal" data-target="#exampleModal" onclick="selection(this.id)"> <div id="pos16"></div></a>
   </div>
 
 </div>	
@@ -85,6 +85,14 @@
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active text-primary" onclick="signImage()">Sign</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="layoutImage()">Layout</a>
+        </li>
+      </ul>
       <div class="modal-body">
         <img src="" id="modalImage" class="img-fluid" alt="Floor Plan">
       </div>
